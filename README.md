@@ -1,2 +1,2 @@
 # Hello-Github
-new try
+new try,a interesting platform
