@@ -1,2 +1,3 @@
 # Hello-Github
-new try,a interesting platform
+
+personal learning notes.
