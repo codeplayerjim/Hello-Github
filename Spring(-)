@@ -1,0 +1,14 @@
+spring容器是核心部分，管理bean的实例化，创建。
+spring aop 提供面向切面编程 帮助应用对象解耦。
+spring中重要的部分是依赖注入与AOP
+
+依赖注入(DI)
+三种方法：
+1.(autowiring)自动装配方法：组件扫描（componemt-scanning）:spring自动发现应用上下文的bean装配，自动装配：spring自动满足bean之间的依赖。二种方法共同组合
+@Componemt:表名该类为组件类，并为此创建bean
+@ComponemtScan 与<context:componemt-scanning>拥有相对应的属性和子元素
+@ContextConfiguration告诉此类需要加载配置，加载所要的类。
+@Autowired可对类进行自动装配，注入bean
+2.通过java代码装配方法
+添加@configuration
+在javaconfig中声明bean,添加@bean
