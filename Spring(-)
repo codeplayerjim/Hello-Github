@@ -12,3 +12,7 @@ spring中重要的部分是依赖注入与AOP
 2.通过java代码装配方法
 添加@configuration
 在javaconfig中声明bean,添加@bean
+3.通过xml装配
+<bean>元素
+<constructor-arg>装配
+<property>元素里面<value>属性装配
