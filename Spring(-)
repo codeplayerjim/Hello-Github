@@ -16,3 +16,10 @@ spring中重要的部分是依赖注入与AOP
 <bean>元素
 <constructor-arg>装配
 <property>元素里面<value>属性装配
+
+DI有助于应用对象的解耦，AOP实现横切关注点（散布于应用各处的功能）与它们所影响的对象之间的解耦
+
+切面（aspect）所要完成的工作叫通知,aspect包括结合和通知
+POJO转换为切面，需要xml配置，aspectj切面无需xml配置
+
+注解创建切面中，切面是切点的目标对象
